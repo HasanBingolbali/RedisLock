@@ -1,2 +1,2 @@
 # RedisLock
-Redis Distributed Locks vs Local Locks in GO
+This source is provided upon [Redis Distributed Locks vs Local Locks in GO](https://medium.com/@bingolbalihasan/local-lock-vs-distributed-lock-example-with-redis-in-go-76bb3bac3d3a) Medium post. The experiment shows that while local locks are suitable for single-instance applications, distributed locks are essential for fault-tolerance and scalability in distributed systems. We used K8s, GO and Redis to demonstrate it hands-on.
